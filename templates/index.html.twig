@@ -1,0 +1,18 @@
+{% extends'base.html.twig' %}
+
+{% block tittle %} Accueil {% endblock %}
+
+{% block body %}
+    <div>
+        {{ article.nom }}
+        <br>
+        {{ article.marque }}
+        <br>
+        {{ article.prix }}
+        <br>
+        {{ article.description }}
+        <br>
+        {{ article.quantite }}
+        <br>
+    </div>
+{% endblock %}
